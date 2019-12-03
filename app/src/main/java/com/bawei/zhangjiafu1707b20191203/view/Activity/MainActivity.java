@@ -14,7 +14,7 @@ import com.bawei.zhangjiafu1707b20191203.view.Fragment.Login_Fragment;
 import com.bawei.zhangjiafu1707b20191203.view.Fragment.Other_Fragment;
 
 import java.util.ArrayList;
-
+//主界面
 public class MainActivity extends BaseActivity {
 
 
@@ -23,6 +23,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initData() {
+        //b)新建ShopingCartFragment完成图2购物车页面，新建OtherFragment完成首页页面图1（分类、发现、我的公用OtherFragment即可）（5分）
         Login_Fragment fragment_1 = new Login_Fragment();
         Other_Fragment fragment_2 = new Other_Fragment();
         Other_Fragment fragment_3 = new Other_Fragment();
@@ -34,6 +35,7 @@ public class MainActivity extends BaseActivity {
         fragments.add(fragment_3);
         fragments.add(fragment_4);
         fragments.add(fragment_5);
+        //i.点击底部导航可以切换页面。
         vp.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @NonNull
             @Override

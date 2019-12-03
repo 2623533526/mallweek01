@@ -20,6 +20,7 @@
          android:layout_height="0dp">
          <RadioButton
              android:id="@+id/rb_login"
+            android:drawableTop="@drawable/z_sel"
              android:layout_width="0dp"
              android:layout_weight="1"
              android:gravity="center"
@@ -30,6 +31,7 @@
              android:layout_height="match_parent">
          </RadioButton>
          <RadioButton
+           android:drawableTop="@drawable/i_sel"
              android:id="@+id/rb_classify"
              android:layout_width="0dp"
              android:layout_weight="1"
@@ -41,6 +43,7 @@
              android:layout_height="match_parent">
          </RadioButton>
          <RadioButton
+             android:drawableTop="@drawable/f_sel"
              android:id="@+id/rb_find"
              android:layout_width="0dp"
              android:layout_weight="1"
@@ -53,6 +56,7 @@
          </RadioButton>
          <RadioButton
              android:id="@+id/rb_cart"
+             android:drawableTop="@drawable/g_sel"
              android:layout_width="0dp"
              android:layout_weight="1"
              android:gravity="center"
@@ -66,6 +70,7 @@
              android:id="@+id/rb_my"
              android:layout_width="0dp"
              android:layout_weight="1"
+             android:drawableTop="@drawable/w_sel"
              android:gravity="center"
              android:button="@null"
              android:textColor="@drawable/sel"
